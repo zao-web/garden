@@ -141,6 +141,7 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
+	font-family: "ThryomanesNormal", serif;
 	margin: 0 1.5em;
 }
 address {
