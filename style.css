@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 p {
+	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
 }
 b, strong {
@@ -142,6 +143,7 @@ dfn, cite, em, i {
 }
 blockquote {
 	font-family: "ThryomanesNormal", serif;
+	font-size: 2.25em;
 	margin: 0 1.5em;
 }
 address {

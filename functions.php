@@ -97,6 +97,11 @@ function garden_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	wp_register_style( 'montserrat-font', 'http://fonts.googleapis.com/css?family=Montserrat');
+    
+    wp_enqueue_style( 'montserrat-font' );
+
+    wp_enqueue_style( 'dashicons' );
 }
 add_action( 'wp_enqueue_scripts', 'garden_scripts' );
 
