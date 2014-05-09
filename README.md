@@ -1,4 +1,4 @@
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+sHi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
@@ -19,19 +19,19 @@ If you want to keep it simple, head over to http://underscores.me and generate y
 
 If you want to set things up manually, download `_s` from github. The first thing you want to do is copy the `_s` directory and change the name to something else - Like, say, `megatherium` - then you'll need to do a five-step find and replace on the name in all the templates.
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+1. Search for `'garden'` (inside single quotations) to capture the text domain.
+2. Search for `garden_` to capture all the function names.
+3. Search for `Text Domain: garden` in style.css.
+4. Search for <code>&nbsp;garden</code> (with a space before it) to capture DocBlocks.
+5. Search for `garden-` to capture prefixed handles.
 
 OR
 
-* Search for: `'_s'` and replace with: `'megatherium'`
-* Search for: `_s_` and replace with: `megatherium_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: `_s-` and replace with: `megatherium-`
+* Search for: `'garden'` and replace with: `'megatherium'`
+* Search for: `garden_` and replace with: `megatherium_`
+* Search for: `Text Domain: garden` and replace with: `Text Domain: megatherium` in style.css.
+* Search for: <code>&nbsp;garden</code> and replace with: <code>&nbsp;Megatherium</code>
+* Search for: `garden-` and replace with: `megatherium-`
 
 Then, update the stylesheet header in style.css and the links in footer.php with your own information. Next, update or delete this readme.
 
