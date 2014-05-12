@@ -23,7 +23,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title" id="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo bloginfo( 'name' ); ?><img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" alt="The Garden Logo" /></a></h1>
+			<h1 class="site-title"><?php echo bloginfo( 'name' ); ?></h1>
+			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" alt="The Garden Logo" /></a>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

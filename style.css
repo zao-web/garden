@@ -155,10 +155,11 @@ b, strong {
 dfn, cite, em, i {
 	font-style: italic;
 }
-blockquote {
+blockquote,
+blockquote p {
 	color: #242424;
 	font-family: "thryomanesnormal", serif;
-	font-size: 2.25em;
+	font-size: 1.5em;
 	margin: 0 1.5em;
 }
 address {
@@ -209,10 +210,27 @@ big {
 h1.entry-title {
 	font-size: 3em;
 }
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: #8abfad;
+	font-size: 0.75em; 
+}
+h1.site-title {
+	display: none;
+}
+a#logo,
+.entry-header {
+	margin-left: 18.9009%;
+}
+h1.entry-header
 span.posted-on,
 span.posted-on a {
-	font-family: "Montserrat", sans-serif;
-	color:  #8abfad;
+	color: #8abfad;
 	font-size: 0.65625em; 
 	font-weight: 300;
 	line-height: 1.571;
@@ -261,9 +279,12 @@ table {
 th {
 	font-weight: bold;
 }
-a {
-	text-decoration: none;
+.site-branding {
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
 }
+
+
 
 /*--------------------------------------------------------------
 4.0 Forms
