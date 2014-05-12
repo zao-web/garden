@@ -140,11 +140,14 @@ textarea {
 	line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
+	color: #242424;
+	font-family: "thryomanesnormal", serif;
 	clear: both;
 }
 p {
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
+	font-size: 0.75em;
 }
 b, strong {
 	font-weight: bold;
@@ -153,6 +156,7 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
+	color: #242424;
 	font-family: "thryomanesnormal", serif;
 	font-size: 2.25em;
 	margin: 0 1.5em;
@@ -202,6 +206,17 @@ small {
 big {
 	font-size: 125%;
 }
+h1.entry-title {
+	font-size: 3em;
+}
+span.posted-on,
+span.posted-on a {
+	font-family: "Montserrat", sans-serif;
+	color:  #8abfad;
+	font-size: 0.65625em; 
+	font-weight: 300;
+	line-height: 1.571;
+}
 
 /*--------------------------------------------------------------
 3.0 Elements
@@ -245,6 +260,9 @@ table {
 }
 th {
 	font-weight: bold;
+}
+a {
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
