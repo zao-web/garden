@@ -5,13 +5,21 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="featured-image">	
+		<?php 
+		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+		  the_post_thumbnail( 'full' );
+		} 
+		?>
+	</header><!-- .featured-image-->
+
+	<div class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
 			<?php garden_posted_on(); ?>
 		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+	</div><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>

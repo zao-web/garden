@@ -207,29 +207,17 @@ small {
 big {
 	font-size: 125%;
 }
-h1.entry-title {
-	font-size: 3em;
-}
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-	font-family: "Montserrat", sans-serif;
-	text-decoration: none;
-	color: #8abfad;
-	font-size: 0.75em; 
-}
-h1.site-title {
-	display: none;
-}
 a#logo,
 .entry-header {
 	margin-left: 18.9009%;
 }
-h1.entry-header
-span.posted-on,
-span.posted-on a {
+h1.site-title {
+	display: none;
+}
+h1.entry-title {
+	font-size: 3em;
+}
+span.posted-on {
 	color: #8abfad;
 	font-size: 0.65625em; 
 	font-weight: 300;
@@ -390,16 +378,15 @@ textarea {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-a:visited {
-	color: purple;
-}
+a,
+a:link,
+a:visited,
 a:hover,
-a:focus,
 a:active {
-	color: midnightblue;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: #8abfad;
+	font-size: 0.75em; 
 }
 
 /*--------------------------------------------------------------
