@@ -117,6 +117,17 @@ a img {
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
+@font-face {
+    font-family: 'thryomanesnormal';
+    src: url('fonts/thryn___-webfont.eot');
+    src: url('fonts/thryn___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/thryn___-webfont.woff') format('woff'),
+         url('fonts/thryn___-webfont.ttf') format('truetype'),
+         url('fonts/thryn___-webfont.svg#thryomanesnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body,
 button,
 input,
@@ -142,7 +153,7 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	font-family: "ThryomanesNormal", serif;
+	font-family: "thryomanesnormal", serif;
 	font-size: 2.25em;
 	margin: 0 1.5em;
 }
