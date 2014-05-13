@@ -31,6 +31,14 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<div class="social-media">
+		<a href="https://twitter.com/thegardenlb"><div class="dashicons dashicons-twitter"></div></a>
+		<a href="https://www.facebook.com/thegardenlb"><div class="dashicons dashicons-facebook-alt"></div></a>
+		<a href="#"><div class="dashicons independent-network"></div></a>
+		<a href="#"><div class="dashicons unknown"></div></a>	
+		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
+	</div><!-- .social-media -->
+
 	<footer class="entry-footer">
 		<?php
 			/* translators: used between list items, there is a space after the comma */

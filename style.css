@@ -388,6 +388,16 @@ a:active {
 	color: #8abfad;
 	font-size: 0.75em; 
 }
+.dashicons {
+	display: inline-block;
+	color: #8abfad;
+}
+/*.dashicons-twitter:before {
+	content: "\f301";
+}
+.dashicons-facebook-alt:before {
+	content: "\f305";
+}*/
 
 /*--------------------------------------------------------------
 5.2 Menus
