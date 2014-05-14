@@ -30,10 +30,11 @@ Tags:
 	10.1 - Posts and pages
 	10.2 - Asides
 	10.3 - Comments
-11.0 - Infinite scroll
-12.0 - Media
-	12.1 - Captions
-	12.2 - Galleries
+11.0 - Footer
+12.0 - Infinite scroll
+13.0 - Media
+	13.1 - Captions
+	13.2 - Galleries
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -144,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "thryomanesnormal", serif;
 	clear: both;
 }
-p {
+p, table {
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
 	font-size: 0.75em;
@@ -383,8 +384,7 @@ a:hover,
 a:active {
 	font-family: "Montserrat", sans-serif;
 	text-decoration: none;
-	color: #8abfad;
-	font-size: 0.75em; 
+	color: #8abfad; 
 }
 .dashicons {
 	display: inline-block;
@@ -633,7 +633,54 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-11.0 Infinite scroll
+12.0 Footer
+--------------------------------------------------------------*/
+footer {
+	width: 100%;
+}
+.site-info {
+	display: inline-block;
+	float: left;
+	width: 66.6666%;
+	background: #8abfad;
+	margin: 5% 0 0 0;
+	padding: 2.5% 5% 2.5% 10%;
+	color: #fff;
+}
+div.site-info,
+div.site-map {
+	height: 302px;
+}
+img#footer-logo {
+	padding: 5% 0;
+}
+.footer-info div {
+	display: inline-block;
+	padding: 0 12% 5% 0;
+}
+.footer-info p {
+	margin: 0;
+}
+#footer-contact a {
+	color: #fff;
+}
+.footer-social-media div,
+.footer-social-media img {
+	color: #fff;
+	margin-right: 2%;
+}
+div.site-map {
+	display: inline-block;
+	float: right;
+	width: 33.3333%;
+	margin: 5% 0 0 0;
+}
+.site-map img {
+	padding-left: 3%;
+}
+
+/*--------------------------------------------------------------
+12.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
@@ -646,7 +693,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-12.0 Media
+13.0 Media
 --------------------------------------------------------------*/
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
@@ -664,7 +711,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-12.1 Captions
+13.1 Captions
 --------------------------------------------------------------*/
 .wp-caption {
 	margin-bottom: 1.5em;
@@ -682,7 +729,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-12.2 Galleries
+13.2 Galleries
 --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;
