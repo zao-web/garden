@@ -32,10 +32,10 @@
 	</div><!-- .entry-content -->
 
 	<div class="social-media">
-		<a href="https://twitter.com/thegardenlb"><div class="dashicons dashicons-twitter"></div></a>
-		<a href="https://www.facebook.com/thegardenlb"><div class="dashicons dashicons-facebook-alt"></div></a>
-		<a href="#"><div class="dashicons independent-network"></div></a>
-		<a href="#"><div class="dashicons unknown"></div></a>	
+		<a href="#"><div class="dashicons dashicons-twitter"></div></a>
+		<a href="#"><div class="dashicons dashicons-facebook-alt"></div></a>
+		<a href="#"><img src="<?php echo get_stylesheet_directory_uri() . '/img/green-in.png'; ?>" alt="Independent Network Icon" /></a>
+		<a href="#"><img src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="Independent Network Icon" /></a>	
 		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
 	</div><!-- .social-media -->
 
