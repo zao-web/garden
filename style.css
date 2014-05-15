@@ -387,8 +387,9 @@ a:active {
 	color: #8abfad; 
 }
 .social-media img {
-	height: 20px;
-	width: 20px;
+	height: 15px;
+}
+
 }
 .dashicons {
 	display: inline-block;

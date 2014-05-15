@@ -21,6 +21,7 @@
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->
 
+	
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -35,7 +36,7 @@
 		<a href="#"><div class="dashicons dashicons-twitter"></div></a>
 		<a href="#"><div class="dashicons dashicons-facebook-alt"></div></a>
 		<a href="#"><img src="<?php echo get_stylesheet_directory_uri() . '/img/green-in.png'; ?>" alt="Independent Network Icon" /></a>
-		<a href="#"><img src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="Independent Network Icon" /></a>	
+		<a href="#"><img id="arrow" src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="Independent Network Icon" /></a>	
 		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
 	</div><!-- .social-media -->
 
