@@ -604,12 +604,15 @@ a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.entry-header {
+	margin-left: 15.5797%;
+}
 .entry-content {
 	float: right;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-right: 20.5918%;
-	width: 42.693%;
+	width: 47%;
 }
 .entry-content p {
 	margin-left: 10%;
@@ -618,6 +621,15 @@ a:active {
 	float: left;
 	margin: 0 12% 3% 0;
 	line-height: 1em;
+}
+img.avatar {
+	border-radius: 100%;
+}
+div.post-hr {
+	background-color: #242424;
+	width: 68.84%;
+	height: 1px;
+	margin: auto;
 }
 
 /*--------------------------------------------------------------

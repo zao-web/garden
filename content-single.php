@@ -18,6 +18,9 @@
 
 		<div class="entry-meta">
 			<?php garden_posted_on(); ?>
+			<div class="author-gravatar">
+				<?php echo get_avatar( get_the_author_email(), '100' ); ?>
+			</div><!-- .author-gravatar -->
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->
 
@@ -39,6 +42,8 @@
 		<a href="#"><img id="arrow" src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="Independent Network Icon" /></a>	
 		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
 	</div><!-- .social-media -->
+
+	<div class="post-hr"><hr></div>
 
 	<footer class="entry-footer">
 		<?php
