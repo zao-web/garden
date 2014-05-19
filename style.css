@@ -655,6 +655,9 @@ div.post-hr {
 footer {
 	width: 100%;
 }
+.home footer .site-info {
+	background: #7f7f7f;
+}
 .site-info {
 	display: inline-block;
 	float: left;
