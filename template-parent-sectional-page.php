@@ -7,6 +7,7 @@
  * pull in the lower level sub-sections and display them all as one page.
  *
  * @package garden
+ *
  */
  
 get_header(); 
@@ -21,7 +22,10 @@ get_header();
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 				  the_post_thumbnail( 'full' );
 				} 
+				
+				the_title();
 				?>
+
 			</header><!-- .featured-image-->
  
 			<div class="content">	
