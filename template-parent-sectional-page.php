@@ -17,16 +17,26 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
  
-			<header class="featured-image">	
-				<?php 
-				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-				  the_post_thumbnail( 'full' );
-				} 
+			<header class="page-header">	
+				<div class="featured-image">
+					<?php 
+					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+					  the_post_thumbnail( 'full' );
+					} ?>
+				</div><!-- .featured-image -->
 				
-				the_title();
-				?>
+				<p class="green-title">
+					<?php the_field('green_page_title'); ?>
+				</p><!-- .green-title -->
 
-			</header><!-- .featured-image-->
+				<h1 class="page-tagline">
+					<?php the_field('page_tagline'); ?>
+				</h1><!-- .page-tagline -->
+			</header><!-- .page-header -->
+
+			<div class="parent-content">
+				<?php the_content(); ?>
+			</div><!-- .parent-content-->
  
 			<div class="content">	
 				<?php

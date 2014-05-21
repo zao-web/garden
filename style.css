@@ -577,6 +577,42 @@ a:active {
 }
 
 /*--------------------------------------------------------------
+10.0 Header
+--------------------------------------------------------------*/
+
+.page-header header {
+	width: 100%;
+	z-index: -1;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+p.green-title,
+h1.page-tagline {
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	width: 100%
+}
+
+p.green-title {
+	font-family: "Montserrat", sans-serif;
+	color: #8abfad;
+	font-size: 1em;
+	top: 290px;
+}
+
+h1.page-tagline {
+	font-family: "thryomanesnormal", serif;
+	font-size: 3.5em;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 2px;
+	top: 325px;
+}
+
+
+/*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
