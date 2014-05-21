@@ -41,13 +41,14 @@ get_header();
 					<?php get_template_part( 'content', 'page' ); ?>
 
 				<?php endwhile; // end of the loop. ?>	
-				
+
 				<?php
 	 
 					$query_args = array(
 					  'post_type'   => 'page',
 					  'post_status' => 'publish',
-					  'post_parent' => get_the_ID()
+					  'post_parent' => get_the_ID(),
+					  'orderby' => 'menu_order title'
 					);
 					 
 					$children = new WP_Query( $query_args );
@@ -66,12 +67,11 @@ get_header();
 									the_post_thumbnail( 'full' );
 								} 	
 							?> 
+							<h1 class="child-title">
+								<?php the_title(); ?>
+							</h1><!-- .child-title -->
 						</div><!-- .child-featured-img -->
 						
-						<div class="child-title">
-							<?php the_title(); ?>
-						</div><!-- .child-title -->
- 
 						<div class="child-content">
 							<?php the_content(); ?>
 						</div><!-- .child-content -->
