@@ -544,6 +544,8 @@ a:active {
 .site-header:after,
 .site-content:before,
 .site-content:after,
+.widget-content:before,
+.widget-content:after,
 .site-footer:before,
 .site-footer:after {
 	content: '';
@@ -555,6 +557,7 @@ a:active {
 .comment-content:after,
 .site-header:after,
 .site-content:after,
+.widget-content:after,
 .site-footer:after {
 	clear: both;
 }
@@ -584,7 +587,12 @@ a:active {
 	width: 100%;
 	z-index: -1;
 	position: relative;
-	/*overflow: hidden;*/
+}
+
+.child-featured-img div {
+	width: 100%;
+	z-index: -1;
+	position: relative;
 }
 
 p.green-title,
@@ -602,15 +610,23 @@ p.green-title {
 	top: 290px;
 }
 
-h1.page-tagline {
+h1.page-tagline,
+h1.child-title {
 	font-family: "thryomanesnormal", serif;
-	font-size: 3.5em;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 2px;
+}
+
+h1.page-tagline{
+	font-size: 3.5em;
 	top: 325px;
 }
 
+h1.child-title {
+	font-size: 2.33em;
+	top: 325px;
+}
 
 /*--------------------------------------------------------------
 10.0 Content
@@ -667,6 +683,40 @@ div.post-hr {
 	height: 1px;
 	margin: auto;
 }
+
+/*--------------------------------------------------------------
+10.1 Widgetized Page
+--------------------------------------------------------------*/
+.widget-content {
+	width: 58.6957%;
+	margin: 5% auto;
+}
+
+.widget-top-left,
+.widget-middle-left,
+.widget-bottom-left, 
+.widget-top-right,
+.widget-middle-right,
+.widget-bottom-right {
+	width: 350px;
+	height: 200px;
+	margin-top: 5%;
+}
+
+.widget-top-left,
+.widget-middle-left,
+.widget-bottom-left {
+	float: left;
+	margin-left: 3%;
+}
+
+.widget-top-right,
+.widget-middle-right,
+.widget-bottom-right {
+	float: right;
+	margin-right: 3%
+}
+
 
 /*--------------------------------------------------------------
 10.2 Asides
