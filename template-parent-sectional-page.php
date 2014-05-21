@@ -33,12 +33,15 @@ get_header();
 					<?php the_field('page_tagline'); ?>
 				</h1><!-- .page-tagline -->
 			</header><!-- .page-header -->
-
-			<div class="parent-content">
-				<?php the_content(); ?>
-			</div><!-- .parent-content-->
  
-			<div class="content">	
+			<div class="content">
+
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part( 'content', 'page' ); ?>
+
+				<?php endwhile; // end of the loop. ?>	
+				
 				<?php
 	 
 					$query_args = array(
