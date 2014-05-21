@@ -43,6 +43,7 @@ function garden_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'garden' ),
+		'secondary' => __( 'Secondary Menu', 'garden' ),
 	) );
 
 	// Enable support for Post Formats.
@@ -73,6 +74,36 @@ add_action( 'after_setup_theme', 'garden_setup' );
  */
 function garden_widgets_init() {
 	register_sidebar( array(
+		'name'          => __( 'Top-left', 'garden' ),
+		'id'            => 'top-left',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Middle-left', 'garden' ),
+		'id'            => 'middle-left',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Bottom-left', 'garden' ),
+		'id'            => 'bottom-left',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'garden' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
@@ -81,6 +112,37 @@ function garden_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Top-right', 'garden' ),
+		'id'            => 'top-right',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Middle-right', 'garden' ),
+		'id'            => 'middle-right',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Bottom-right', 'garden' ),
+		'id'            => 'Bottom-right',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
 }
 add_action( 'widgets_init', 'garden_widgets_init' );
 
