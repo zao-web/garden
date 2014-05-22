@@ -583,49 +583,49 @@ a:active {
 10.0 Header
 --------------------------------------------------------------*/
 
-.page-header header {
+.page-header header,
+.child-featured-img {
 	width: 100%;
 	z-index: -1;
 	position: relative;
 }
 
-.child-featured-img div {
-	width: 100%;
-	z-index: -1;
-	position: relative;
+.child-featured-img img {
+	z-index: 1;
 }
 
-p.green-title,
-h1.page-tagline {
+.green-title,
+.page-tagline,
+.child-title {
 	text-align: center;
 	position: absolute;
 	z-index: 100;
 	width: 100%
 }
 
-p.green-title {
+.green-title {
 	font-family: "Montserrat", sans-serif;
 	color: #8abfad;
 	font-size: 1em;
 	top: 290px;
 }
 
-h1.page-tagline,
-h1.child-title {
+.page-tagline,
+.child-title {
 	font-family: "thryomanesnormal", serif;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 2px;
 }
 
-h1.page-tagline{
+.page-tagline{
 	font-size: 3.5em;
 	top: 325px;
 }
 
-h1.child-title {
+.child-title {
 	font-size: 2.33em;
-	top: 325px;
+	top: 90px;
 }
 
 /*--------------------------------------------------------------
@@ -682,6 +682,10 @@ div.post-hr {
 	width: 68.84%;
 	height: 1px;
 	margin: auto;
+}
+.child-content {
+	width: 57.3671%;
+	margin: 2% auto;
 }
 
 /*--------------------------------------------------------------
