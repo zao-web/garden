@@ -34,7 +34,7 @@ get_header();
 				</h1><!-- .page-tagline -->
 			</header><!-- .page-header -->
  
-			<div class="content">
+			<div class="parent-content">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
