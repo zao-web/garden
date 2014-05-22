@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "thryomanesnormal", serif;
 	clear: both;
 }
-p, table {
+p, table, ul, .one_half {
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
 	font-size: 0.75em;
@@ -394,6 +394,25 @@ a:active {
 .dashicons {
 	display: inline-block;
 	color: #8abfad;
+}
+div.primary-button {
+	display: inline-block;
+	box-shadow: 0px 1px 1.5px .5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #8abfad;
+	border-radius: 3px;
+	padding: 3px 5px;
+	margin-right: 7px;
+}
+.primary-button a {
+	color: #8abfad;
+	padding: 4px 6px;
+	font-size: 0.75em;
+}
+div.primary-button:hover {
+	background: #8abfad;
+}
+.primary-button a:hover {
+	color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -684,8 +703,8 @@ div.post-hr {
 	margin: auto;
 }
 .child-content {
-	width: 57.3671%;
-	margin: 2% auto;
+	width: 56%;
+	margin: 3% auto 6%;
 }
 
 /*--------------------------------------------------------------
