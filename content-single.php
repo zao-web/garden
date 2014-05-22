@@ -24,7 +24,6 @@
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->
 
-	
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -43,7 +42,7 @@
 		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
 	</div><!-- .social-media -->
 
-	<div class="post-hr"><hr></div>
+	<div class="post-hr"><hr></div><!-- .post-hr -->
 
 	<footer class="entry-footer">
 		<?php

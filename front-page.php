@@ -2,9 +2,9 @@
 /**
  * The main front-page template file.
  *
- * 
  *
- * @package _s
+ *
+ * @package garden
  */
 
 get_header(); ?>
@@ -17,5 +17,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
