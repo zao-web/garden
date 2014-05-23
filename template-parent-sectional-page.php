@@ -34,13 +34,14 @@ get_header();
 				</h1><!-- .page-tagline -->
 			</header><!-- .page-header -->
  
-			<div class="parent-content">
+ 			<div class="both-content">
+				<div class="parent-content">
+					<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php while ( have_posts() ) : the_post(); ?>
+						<?php get_template_part( 'content', 'page' ); ?>
 
-					<?php get_template_part( 'content', 'page' ); ?>
-
-				<?php endwhile; // end of the loop. ?>	
+					<?php endwhile; // end of the loop. ?>	
+				</div><!-- .parent-content -->
 
 				<?php
 	 
@@ -55,7 +56,7 @@ get_header();
 					
 					//Checks to see if child section items exist and pull them into parent page.
 					if ( $children->have_posts() ) {
- 
+
 						while ( $children->have_posts() ) :
 							$children->the_post(); 
 						?>
@@ -82,7 +83,7 @@ get_header();
 					/* Restore original Post Data */
 					wp_reset_postdata(); ?>
 					
-			<div><!-- .content-->
+			<div><!-- .both-content-->
 		</main><!-- #main -->
 	</div><!-- #primary -->
  
