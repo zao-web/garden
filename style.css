@@ -740,6 +740,37 @@ div.post-hr {
 	margin-right: 3%
 }
 
+/*--------------------------------------------------------------
+ Forms
+--------------------------------------------------------------*/
+.prayer-textarea textarea,
+.prayer-form input[type=text] {
+	display: inline-block;
+	box-shadow: 0px 1px 1.5px .5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #8abfad;
+	border-radius: 3px;
+	color: #8abfad;
+}
+
+.prayer-form input[type=text] {
+	height: 40px;
+}
+.prayer-name,
+.prayer-email {
+	display: inline-block;
+}
+
+/*.primary-button a {
+	color: #8abfad;
+	padding: 4px 6px;
+	font-size: 0.75em;
+}
+.primary-button:hover {
+	background: #8abfad;
+}
+.primary-button a:hover {
+	color: #fff;
+}*/
 
 /*--------------------------------------------------------------
 10.2 Asides
