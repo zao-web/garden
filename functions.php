@@ -63,6 +63,9 @@ function garden_setup() {
 		'gallery',
 		'caption',
 	) );
+
+	// Add new staff image size
+	add_image_size( 'staff', 300, 400, false );
 }
 endif; // garden_setup
 add_action( 'after_setup_theme', 'garden_setup' );
