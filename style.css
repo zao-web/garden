@@ -741,6 +741,66 @@ div.post-hr {
 }
 
 /*--------------------------------------------------------------
+10.1 Staff Grid
+--------------------------------------------------------------*/
+.staff-profile {
+	float: left;
+	width: 30.8176100629%; /* [container's width - (number of columns - 1)xgap] / number of columns */
+	margin-left: 3.7735849057%; /* (gap / container's width)x100 */
+	margin-bottom: 30px;
+}
+
+.staff-profile:nth-of-type(3n+1) {
+	clear: left;
+	margin-left: 0;
+}
+
+.staff-profile,
+.staff-img {
+	position: relative;
+}
+
+.staff-overlay,
+.staff-overlay div {
+	color: #fff;
+}
+
+.staff-overlay {
+	background: #8abfad;
+	padding: 10% 0;
+	opacity: 0.9;
+	width: 85%;
+	margin-left: 7.5%;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	z-index: 100;
+	position: absolute;
+	bottom: 5px;
+	height: 40%;
+}
+
+.staff-overlay:hover {
+	background: none;
+}
+
+.staff-name {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+div.staff,
+img.staff {
+	margin-right: 5px;
+	font-size: 1em;
+}
+
+img.staff {
+	width: 14px;
+	margin-top: 0;
+	padding-bottom: 2px;
+}
+
+/*--------------------------------------------------------------
  Forms
 --------------------------------------------------------------*/
 .prayer-textarea textarea,
