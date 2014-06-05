@@ -1,6 +1,6 @@
 <?php
 /**
- * @package _s
+ * @package garden
  */
 ?>
 
@@ -13,7 +13,7 @@
 		?>
 	</header><!-- .featured-image-->
 
-	<div class="entry-header">
+	<div class="blog-entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
@@ -24,7 +24,7 @@
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="blog-entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
