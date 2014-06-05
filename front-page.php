@@ -69,7 +69,7 @@ get_header(); ?>
 					<?php endif; ?>
 				</div>
 
-			</div><!-- .widget-content -->
+			</div><!-- .home .widget-content -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
