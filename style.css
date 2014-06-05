@@ -675,20 +675,20 @@ div.primary-button:hover {
 	clear: both;
 	margin: 0 0 1.5em;
 }
-.entry-header {
+.blog-entry-header {
 	margin-left: 15.5797%;
 }
-.entry-content {
+.blog-entry-content {
 	float: right;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-right: 20.5918%;
 	width: 47%;
 }
-.entry-content p {
+.blog-entry-content p {
 	margin-left: 10%;
 }
-.entry-content blockquote p {
+.blog-entry-content blockquote p {
 	float: left;
 	margin: 0 12% 3% 0;
 	line-height: 1em;
@@ -707,6 +707,83 @@ div.post-hr {
 	margin: 3% auto 6%;
 }
 
+/*--------------------------------------------------------------
+10.1 Front Page
+--------------------------------------------------------------*/
+.hero,
+.hero-image {
+	width: 100%;
+	position: relative;
+}
+
+#hero-title,
+.hero p,
+.cta a,
+.hero-social-media {
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	color: #fff;
+}
+
+#hero-title,
+.hero p {
+	width: 100%;
+}
+
+#hero-title {
+	font-size: 4em;
+	top: 35%;
+}
+
+#line_1,
+#line_2,
+#line_3 {
+	font-size: 1em;
+}
+
+#line_1 {
+	top: 50%;
+}
+
+#line_2 {
+	top: 53%;
+}
+
+#line_3 {
+	top: 56%;
+}
+
+.cta a {
+	border: 1px solid #fff;
+	top: 61%;
+	left: 46%;
+	text-transform: uppercase;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.hero-social-media {
+	bottom: 5%;
+	margin-left:18.9009%;
+}
+
+.hero-dashicons {
+	color: white;
+	margin-right: 10px;
+}
+
+.widget-title {
+	display: none;
+}
+
+.home.widget-content {
+	margin-bottom: 20%;
+}
+
+.home-widget {
+	margin-bottom: 12%;
+}
 /*--------------------------------------------------------------
 10.1 Widgetized Page
 --------------------------------------------------------------*/
