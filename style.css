@@ -702,6 +702,7 @@ div.post-hr {
 	height: 1px;
 	margin: auto;
 }
+.entry-content,
 .child-content {
 	width: 56%;
 	margin: 3% auto 6%;
