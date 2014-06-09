@@ -13,9 +13,35 @@
 get_header(); 
  
 ?>
+<?php
+	global $post;
+
+	$about = array (
+		'theme_location' 	=> 'secondary',
+		'menu' 				=> 'About',
+		'container'			=> 'div',
+		'container_class'	=> 'secondary-nav',
+		'items_wrap'      	=> '<ul id="%1$s" class="%2$s">%3$s</ul>'
+	);
+
+	$connect = array (
+		'theme_location' 	=> 'secondary',
+		'menu' 				=> 'Connect',
+		'container'			=> 'div',
+		'container_class'	=> 'secondary-nav',
+		'items_wrap'      	=> '<ul id="%1$s" class="%2$s">%3$s</ul>'
+	);
+?>
  
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
+			<?php if( is_page( 'about' )) {
+					wp_nav_menu( $about );
+				} elseif( is_page( 'connect' )) {
+					wp_nav_menu( $connect );
+				}
+			?>
  
 			<header class="page-header">	
 				<div class="featured-image">
@@ -68,7 +94,7 @@ get_header();
 									the_post_thumbnail( 'full' );
 								} 	
 							?> 
-							<h1 class="child-title">
+							<h1 class="child-title" id="<?php echo $post->post_name; ?>">
 								<?php the_title(); ?>
 							</h1><!-- .child-title -->
 						</div><!-- .child-featured-img -->
