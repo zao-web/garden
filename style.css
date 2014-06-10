@@ -422,22 +422,32 @@ div.primary-button:hover {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+/*.site-header {  
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 1000;
+	top: 0;
+}*/
 .main-navigation {
 	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
 }
-.main-navigation ul {
+.main-navigation ul,
+.secondary-nav ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
 }
-.main-navigation li {
+.main-navigation li,
+.secondary-nav li {
 	float: left;
 	position: relative;
 }
-.main-navigation a {
+.main-navigation a,
+.secondary-nav a {
 	display: block;
 	text-decoration: none;
 }
