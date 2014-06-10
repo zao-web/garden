@@ -15,6 +15,26 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<?php 
+	global $post;
+
+	$about = array (
+		'theme_location' 	=> 'secondary',
+		'menu' 				=> 'About',
+		'container'			=> 'div',
+		'container_class'	=> 'secondary-nav',
+		'items_wrap'      	=> '<ul id="%1$s" class="%2$s">%3$s</ul>'
+	);
+
+	$connect = array (
+		'theme_location' 	=> 'secondary',
+		'menu' 				=> 'Connect',
+		'container'			=> 'div',
+		'container_class'	=> 'secondary-nav',
+		'items_wrap'      	=> '<ul id="%1$s" class="%2$s">%3$s</ul>'
+	);
+?>
+
 <?php wp_head(); ?>
 </head>
 
@@ -33,6 +53,14 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
+		<?php if( is_page( 'about' )) {
+				wp_nav_menu( $about );
+			} elseif( is_page( 'connect' )) {
+				wp_nav_menu( $connect );
+			}
+		?>
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
