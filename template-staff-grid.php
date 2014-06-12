@@ -56,6 +56,12 @@ get_header(); ?>
 				
 			<?php endwhile; endif;// end of the loop. ?>
 
+			<?php while ( have_posts() ) : the_post(); ?>
+
+				<?php get_template_part( 'content', 'page' ); ?>
+
+			<?php endwhile; // end of the loop. ?>	
+
 			</div><!-- .child-content -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
