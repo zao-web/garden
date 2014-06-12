@@ -399,7 +399,8 @@ a:active {
 	display: inline-block;
 	color: #8abfad;
 }
-div.primary-button {
+.primary-button,
+.secondary-button {
 	display: inline-block;
 	box-shadow: 0px 1px 1.5px .5px rgba(0, 0, 0, 0.1);
 	border: 1px solid #8abfad;
@@ -407,18 +408,35 @@ div.primary-button {
 	padding: 3px 5px;
 	margin-right: 7px;
 }
-.primary-button a {
-	color: #8abfad;
-	padding: 4px 6px;
+.primary-button a,
+.secondary-button a {
+	padding: 5px 7px;
 	font-size: 0.75em;
 }
-div.primary-button:hover {
-	background: #8abfad;
+.primary-button a,
+.secondary-button a:hover  {
+	color: #8abfad;
 }
+.secondary-button a,
 .primary-button a:hover {
 	color: #fff;
 }
-
+.secondary-button {
+	min-width: 115px;
+}
+.secondary-button,
+.primary-button:hover {
+	background: #8abfad;
+}
+.secondary-button:hover,
+.secondary-button a:hover {
+	background: #fff;
+}
+.btn-group {
+	width: 100%;
+	margin: 4% auto 0;
+	text-align: center;
+}
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
@@ -917,18 +935,6 @@ img.staff {
 .prayer-email {
 	display: inline-block;
 }
-
-/*.primary-button a {
-	color: #8abfad;
-	padding: 4px 6px;
-	font-size: 0.75em;
-}
-.primary-button:hover {
-	background: #8abfad;
-}
-.primary-button a:hover {
-	color: #fff;
-}*/
 
 /*--------------------------------------------------------------
 10.2 Asides
