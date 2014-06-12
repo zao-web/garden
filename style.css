@@ -481,6 +481,12 @@ div.primary-button:hover {
 .main-navigation .current_page_item a,
 .main-navigation .current-menu-item a {
 }
+
+.secondary-nav div {
+	width: 100%;
+	padding: 2% 0 2% 18.9009% ;
+	background: black;
+}
 /* Small menu */
 .menu-toggle {
 	display: none;
