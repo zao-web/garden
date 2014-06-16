@@ -1,3 +1,170 @@
+GARDEN PROJECT README
+The Garden Site Notes
+
+Navigation
+-See http://www.hugeinc.com for navigation function
+-I’ve built in layer comps to help out.
+-Page with sub nag, please use a jump nav function
+
+Footer
+-I’ve made a separate PSD for the global footer.
+—Social Links—
+twitter.com/thegardenlb
+facebook.com/thegardenlb
+instagram.com/thegardenlb
+
+Home
+-For the hero, client is requesting ability to upload background art and have live text CTAs
+-The art for the 6 ad buckers are TBD. The client wants to be able to change these out frequently.
+
+About
+Links for “Download Year in Reviews”
+Infographic-for-web1.jpg
+stateofthechurch_2012_web_v2.png
+stateofthechurch_screen.jpg
+
+Sermon on the Mound link TBD
+
+Note: If there is no link for a staff member, please remove that icon.
+ 
+—STAFF LINKS—
+Darren Rouanzoin: 
+T: @darrenr
+FB: https://www.facebook.com/drouanzoin?fref=ts
+IG: @darrenr
+Email: darren@thegardenlb.org
+
+Peter DeSoto:
+T: n/a
+FB: https://www.facebook.com/peter.desoto?fref=ts
+IG: n/a
+Email: pdesoto@thegardenlb.org
+
+Bill Dogterom: 
+T: n/a 
+FB: https://www.facebook.com/bill.dogterom?fref=ts
+IG: n/a
+Email: BDogterom@vanguard.edu
+
+Brooke Hodges: 
+T: @hodgesbrooke
+FB: https://www.facebook.com/brooke.hodges.12?fref=ts
+IG: @brookealysehodges
+Email: brooke@thegardenlb.org
+
+Alex Rouanzoin
+T: @alexrouanzoin
+FB: https://www.facebook.com/arouanzoin?fref=ts
+IG: @alxrnzn
+email: alex@thegardenlb.org
+
+Dara DeSoto:
+T: n/a
+FB: n/a
+IG: n/a
+Email: childrens@thegardenlb.org
+
+Lisa Smith
+T: n/a
+FB: https://www.facebook.com/llsmith06?fref=ts
+IG: n/a
+Email: lisa@thegardenlb.org
+
+Faith Wecker:
+T: @faithwecker
+FB: https://www.facebook.com/faith.wecker?fref=ts
+IG: @faithwecker
+email: faith.wecker@me.com
+
+Josh Dunsterville:
+T: @jdunsterville
+FB: https://www.facebook.com/jdunsterville?fref=ts
+IG: @jdunsterville
+email: jdunsterville@gmail.com
+
+Peter Shimer: 
+T: @petershimer
+FB: https://www.facebook.com/peter.shimer?fref=ts
+IG: @pshimer
+email: youth@thegardenlb.org
+
+Peter Guinta: 
+T: n/a
+FB: n/a
+IG: n/a
+email: peter@thegardenlb.org
+
+Blog Overview
+Tile 1 Link - thegardenlb.org/blog
+Tile 2 Link - darrenr.com
+Tile 3 Link - bdogterom.blogspot.com
+
+
+Blog
+-Client is requesting ability to have contributor profiles. If a there is a better template blog solution, I am open to it to save time.
+
+
+Sermons
+-Both CTAs and the body link are to link to - http://thegardenlb.sermoncampus.info/main/main/20049955
+
+
+Contact
+-have all form entries go to brooke@thegardenlb.org
+
+
+Give
+-The client is requesting the give page have the same function as the current page - http://thegardenlb.org/give/
+—CREDENTIALS—
+foxycart.com
+username: brooke@thegardenlb.org
+password: garden123
+
+Media
+-Learn More button link to Sermons Page
+-Listen Now button link to http://thegardenlbcourses.sermoncampus.info/main/main/20049893
+-Watch Now button link to TBD
+—All body copy FPO— Client will replace when on staging server
+
+New Member / Welcome
+“To find out when and where we meet, click here” - link to Connect Page
+“To find a community group in your area, click here”  - link to Connect Page
+Visit Sermons button link to Sermons Page
+Meet Our Staff link to about/#staff+leadership
+Contact Us Button link to Contact Page
+
+Connect
+-Clicking a map, would open that location in google maps
+-Find Your Area Function
+—The client would like a search function for users to find their local community group. Is this possible?
+(Here is the data - http://thegardenlb.org/connect/community-groups/)
+-Local Partners. - LINKS TBD
+-Calendar - this is a big one. Can we make a new google calendar and embed that into this part of site? The client would like to frequently update it. Plan B would be to link out to a robustus calendar function.
+-Prayer Requests form - for now, please send all requests to brooke@thegardenlb.org
+
+Short Term Care PDF for Download - http://thegardenlb.org/garden/wp-content/uploads/2012/08/LONG-TERM-missionary-care-application.pdf
+
+Long Term Care PDF for Download - http://thegardenlb.org/garden/wp-content/uploads/2012/08/LONG-TERM-missionary-care-application.pdf
+
+Benevolence Application - http://thegardenlb.org/garden/wp-content/uploads/2011/12/First-Fruits-Benevolence-Application-Garden.pdf
+
+General Application - http://thegardenlb.org/garden/wp-content/uploads/2011/12/First-Fruits-General-Application-Garden.pdf
+
+Templates:
+Home page
+Static Page – About, Connect, New Members
+Blog
+
+Use custom post types and acf for Header page verbiage.
+
+Make home page entirely widgetized area
+
+Make content of finance pdfs buttons list items and then css style so they just have to copy and paste list item to add next year.
+
+
+
+
+
+THEME README
 sHi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
