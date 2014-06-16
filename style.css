@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "thryomanesnormal", serif;
 	clear: both;
 }
-p, table, ul, .one_half {
+p, table, ul, .one_half, .byline {
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
 	font-size: 0.75em;
@@ -219,7 +219,10 @@ span.posted-on {
 	color: #8abfad;
 	font-size: 0.65625em; 
 	font-weight: 300;
-	line-height: 1.571;
+}
+span.author a {
+	color: #242424;
+	font-size: 1em;
 }
 
 /*--------------------------------------------------------------
@@ -715,6 +718,7 @@ a:active {
 }
 .blog-entry-header {
 	margin-left: 15.5797%;
+	margin-top: 2%;
 }
 .blog-entry-content {
 	float: right;
@@ -733,6 +737,7 @@ a:active {
 }
 img.avatar {
 	border-radius: 100%;
+	margin: 2% 0;
 }
 div.post-hr {
 	background-color: #242424;
