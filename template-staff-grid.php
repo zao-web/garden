@@ -28,7 +28,7 @@ get_header(); ?>
 			?>
 
 		
-			<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 			
 				<div class="staff-profile">
 					<div class="staff-img"><img src="<?php echo the_field( 'image' ); ?>" /></div>
