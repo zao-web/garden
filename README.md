@@ -161,7 +161,19 @@ Make home page entirely widgetized area
 Make content of finance pdfs buttons list items and then css style so they just have to copy and paste list item to add next year.
 
 
+LIZ'S README
 
+The following plugins are being utilized for the website
+
+-Advanced Custom Fields
+-Column Shortcodes
+-Custom Post Type UI
+-Display Widgets
+-Gravity Forms
+-Gravity Forms - Placeholders add-on
+-Image Widget
+-Post Types Order
+-Simple Page Ordering
 
 
 THEME README
