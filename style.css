@@ -145,10 +145,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "thryomanesnormal", serif;
 	clear: both;
 }
-p, table, ul, /*.one_half,*/ .byline {
+p, table, ul, .one_half, .byline {
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 1.5em;
-	font-size: 0.75em;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 b, strong {
 	font-weight: bold;
@@ -160,7 +162,8 @@ blockquote,
 blockquote p {
 	color: #242424;
 	font-family: "thryomanesnormal", serif;
-	font-size: 1.4em;
+	font-size: 32px;
+	font-size: 3.2rem;
 	margin:0;
 }
 address {
@@ -209,20 +212,27 @@ big {
 	font-size: 125%;
 }
 h1.entry-title {
-	font-size: 3em;
+	font-size: 45px;
+	font-size: 4.5rem;
 }
 .two_third h2, 
 .one_third h2 {
-	font-size: 2.5em;
+	font-size: 42px;
+	font-size: 4.2rem;
+}
+span.posted-on,
+span.author a,
+span.byline {
+	font-size: 11px; 
+	font-size: 1.1rem; 
+	font-weight: 300;
 }
 span.posted-on {
 	color: #8abfad;
-	font-size: 0.65625em; 
-	font-weight: 300;
 }
-span.author a {
+span.author a,
+span.byline {
 	color: #242424;
-	font-size: 1em;
 }
 
 /*--------------------------------------------------------------
@@ -414,7 +424,8 @@ a:active {
 .primary-button a,
 .secondary-button a {
 	padding: 5px 7px;
-	font-size: 0.75em;
+	font-size: 12px;
+	font-size: 1.2rem;
 }
 .primary-button a,
 .secondary-button a:hover  {
@@ -673,7 +684,8 @@ a:active {
 .green-title {
 	font-family: "Montserrat", sans-serif;
 	color: #8abfad;
-	font-size: 1em;
+	font-size: 16px;
+	font-size: 1.6rem;
 	top: 290px;
 }
 .page-tagline,
@@ -685,12 +697,14 @@ a:active {
 }
 
 .page-tagline{
-	font-size: 3.5em;
+	font-size: 60px;
+	font-size: 6rem;
 	top: 325px;
 }
 
 .child-title {
-	font-size: 2.33em;
+	font-size: 45px;
+	font-size: 4.5rem;
 	top: 90px;
 }
 
@@ -779,12 +793,14 @@ div.post-hr {
 	width: 100%;
 }
 #hero-title {
-	font-size: 4em;
+	font-size: 72px;
+	font-size: 7.2rem;
 	top: 35%;
 }
 #line_1,
 #line_2 {
-	font-size: 1em;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 #line_1 {
 	top: 50%;
@@ -796,7 +812,7 @@ div.post-hr {
 .cta a {
 	border: 1px solid #fff;
 	top: 61%;
-	left: 46%;
+	left: 45%;
 	text-transform: uppercase;
 	padding: 8px;
 	border-radius: 4px;
@@ -901,10 +917,15 @@ div.post-hr {
 	margin-bottom: 0;
 }
 
-div.staff,
-img.staff {
+.staff p,
+img.staff,
+div.staff {
 	margin-right: 5px;
-	font-size: 1em;
+}
+.staff p,
+img.staff {
+	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 img.staff {
@@ -931,7 +952,8 @@ img.staff {
 	z-index: 100;
 	width: 100%;
 	font-family: "Montserrat", sans-serif;
-	font-size: 2.25em;
+	font-size: 35px;
+	font-size: 3.5rem;
 	top: 38%;
 	color: #fff;
 }
@@ -956,7 +978,8 @@ img.staff {
 }
 .sermons-archive-cta h1 {
 	font-family: "thryomanesnormal", serif;
-	font-size: 2.5em;
+	font-size: 45px;
+	font-size: 4.5rem;
 	top: 30%;
 	width: 100%;
 }
@@ -992,7 +1015,8 @@ img.staff {
 }
 .kindred h1 {
 	font-family: "thryomanesnormal", serif;
-	font-size: 2.5em;
+	font-size: 38px;
+	font-size: 3.8rem;
 	top: 25%;
 }
 .kindred p {
