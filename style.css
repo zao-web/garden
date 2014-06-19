@@ -939,7 +939,7 @@ img.staff {
 --------------------------------------------------------------*/
 .blog-banner {
 	width: 100%;
-	z-index: -1;
+	z-index: 1;
 	position: relative;
 	margin-bottom: 5%;
 }
@@ -963,7 +963,7 @@ img.staff {
 --------------------------------------------------------------*/
 .sermons-archive-cta {
 	width: 100%;
-	z-index: -1;
+	z-index: 1;
 	position: relative;
 }
 .sermons-archive-cta img {
