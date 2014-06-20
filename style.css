@@ -779,10 +779,15 @@ div.post-hr {
 }
 #hero-title,
 .hero p,
-.cta a,
+.cta,
 .hero-social-media {
 	text-align: center;
 	position: absolute;
+}
+#hero-title,
+.hero p,
+.cta a,
+.hero-social-media {
 	z-index: 100;
 	color: #fff;
 }
@@ -807,13 +812,23 @@ div.post-hr {
 #line_2 {
 	top: 53%;
 }
+.cta,
 .cta a {
+	top: 64%;
+	left: 50%;
+}
+.cta {
 	border: 1px solid #fff;
-	top: 61%;
-	left: 45%;
+	padding: 7px;
+	border-radius: 4px;
+	-ms-transform: translate(-50%, -64%);
+	-webkit-transform: translate(-50%, -64%);
+	transform: translate(-50%, -64%);
+}
+.cta a {
 	text-transform: uppercase;
 	padding: 8px;
-	border-radius: 4px;
+	width: 100%;
 }
 .hero-social-media {
 	bottom: 5%;
