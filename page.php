@@ -63,7 +63,7 @@ get_header(); ?>
 				<div class="kindred">
 					<img class="kindred-bg" src="<?php echo get_stylesheet_directory_uri() . '/img/kindred-bg.png'; ?>">
 					<h1>Also, with a text.</h1>
-					<p>Text “GIVE” to 562.296.4839 to get started.</p>
+					<p>Text &quot;GIVE&quot; to 562.296.4839 to get started.</p>
 				</div>
 
 				<div class="give entry-content">
