@@ -983,7 +983,8 @@ img.staff {
 	z-index: 1;
 }
 .sermons-archive-cta h1,
-.archive.secondary-button {
+.archive.secondary-button,
+.sermons-top-cta.secondary-button {
 	text-align: center;
 	position: absolute;
 	z-index: 100;
@@ -997,11 +998,22 @@ img.staff {
 	width: 100%;
 }
 .archive.secondary-button {
-	top: 60%;
-	left: 46%;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -70%);
+	-webkit-transform: translate(-50%, -70%);
+	transform: translate(-50%, -70%);
 }
-.archive.secondary-button a {
+.archive.secondary-button a,
+.sermons-top-cta.secondary-button a {
 	z-index: 200;
+}
+.sermons-top-cta.secondary-button {
+	top: 110%;
+	left: 50%;
+	-ms-transform: translate(-50%, -110%);
+	-webkit-transform: translate(-50%, -110%);
+	transform: translate(-50%, -110%);
 }
 
 /*--------------------------------------------------------------
