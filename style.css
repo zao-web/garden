@@ -665,11 +665,11 @@ a:active {
 .page-header header,
 .child-featured-img {
 	width: 100%;
-	z-index: -1;
+	z-index: 1;
 	position: relative;
 }
 .child-featured-img img {
-	z-index: 1;
+	z-index: 2;
 }
 .green-title,
 .page-tagline,
@@ -1009,11 +1009,11 @@ img.staff {
 	z-index: 200;
 }
 .sermons-top-cta.secondary-button {
-	top: 110%;
+	top: 72%;
 	left: 50%;
-	-ms-transform: translate(-50%, -110%);
-	-webkit-transform: translate(-50%, -110%);
-	transform: translate(-50%, -110%);
+	-ms-transform: translate(-50%, -70%);
+	-webkit-transform: translate(-50%, -70%);
+	transform: translate(-50%, -70%);
 }
 
 /*--------------------------------------------------------------
