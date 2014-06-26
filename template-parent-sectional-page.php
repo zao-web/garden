@@ -28,13 +28,13 @@ get_header();
 					} ?>
 				</div><!-- .featured-image -->
 				
-				<p class="green-title">
+				<h1 class="green-title">
 					<?php the_field('green_page_title'); ?>
-				</p><!-- .green-title -->
+				</h1><!-- .green-title -->
 
-				<h1 class="page-tagline">
+				<h2 class="page-tagline">
 					<?php the_field('page_tagline'); ?>
-				</h1><!-- .page-tagline -->
+				</h2><!-- .page-tagline -->
 			</header><!-- .page-header -->
  
  			<div class="both-content">
@@ -71,9 +71,9 @@ get_header();
 									the_post_thumbnail( 'full' );
 								} 	
 							?> 
-							<h1 class="child-title">
+							<h2 class="child-title">
 								<?php the_title(); ?>
-							</h1><!-- .child-title -->
+							</h2><!-- .child-title -->
 						</div><!-- .child-featured-img -->
 						
 						<div class="child-content">

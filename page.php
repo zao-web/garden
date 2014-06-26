@@ -23,13 +23,13 @@ get_header(); ?>
 					} ?>
 				</div><!-- .featured-image -->
 				
-				<p class="green-title">
+				<h1 class="green-title">
 					<?php the_field('green_page_title'); ?>
-				</p><!-- .green-title -->
+				</h1><!-- .green-title -->
 
-				<h1 class="page-tagline">
+				<h2 class="page-tagline">
 					<?php the_field('page_tagline'); ?>
-				</h1><!-- .page-tagline -->
+				</h2><!-- .page-tagline -->
 
 				<?php if( is_page( 'sermons' )) : ?>
 
