@@ -39,6 +39,12 @@ get_header(); ?>
 
 			</header><!-- .page-header -->
 
+			<?php if( is_page( 'contact' )) : ?>
+
+				<?php get_template_part( 'custom', 'contact' ); ?>
+
+			<?php endif; ?>
+
 			<?php if( is_page( 'sermons' )) : ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
