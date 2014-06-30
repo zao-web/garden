@@ -19,7 +19,7 @@
 		<div class="entry-meta">
 			<?php garden_posted_on(); ?>
 			<div class="author-gravatar">
-				<?php echo get_avatar( get_the_author_email(), '100' ); ?>
+				<?php echo get_avatar( get_the_author_meta('email'), '100' ); ?>
 			</div><!-- .author-gravatar -->
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->
