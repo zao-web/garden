@@ -70,12 +70,12 @@
 
 			} // end check for categories on this blog
 
-			printf(
+			/*printf(
 				$meta_text,
 				$category_list,
 				$tag_list,
 				get_permalink()
-			);
+			);*/
 		?>
 
 		<?php edit_post_link( __( 'Edit', 'garden' ), '<span class="edit-link">', '</span>' ); ?>
