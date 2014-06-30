@@ -285,7 +285,8 @@ th {
 }
 a#logo,
 .entry-header,
-h1.page-title {
+h1.page-title,
+.blog-entry-header {
 	margin-left: 18.9009%;
 }
 .page-title {
@@ -837,23 +838,22 @@ a:active {
 	margin: 0 0 1.5em;
 }
 .blog-entry-header {
-	margin-left: 15.5797%;
 	margin-top: 2%;
 }
 .blog-entry-content {
-	float: right;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-right: 20.5918%;
+	 margin: 5% 20.5918% 5% 33.39372%;
 	width: 47%;
 }
 .blog-entry-content p {
 	margin-left: 10%;
 }
 .blog-entry-content blockquote p {
-	float: left;
 	margin: 0 12% 3% 0;
 	line-height: 1em;
+	display: inline-block;
+}
+.author-gravatar {
+	display: inline-block;
 }
 img.avatar {
 	border-radius: 100%;
@@ -864,6 +864,7 @@ div.post-hr {
 	width: 68.84%;
 	height: 1px;
 	margin: auto;
+	display: inline-block;
 }
 .entry-content,
 .child-content {
