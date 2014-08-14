@@ -48,7 +48,7 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle"><?php _e( 'Main Menu', 'garden' ); ?></button>
+			<p id="menu-btn">Menu</p>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'garden' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
