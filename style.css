@@ -796,13 +796,11 @@ a:active {
 	color: #fff;
 	letter-spacing: 2px;
 }
-
 .page-tagline{
 	font-size: 60px;
 	font-size: 6rem;
 	top: 325px;
 }
-
 .child-title {
 	font-size: 45px;
 	font-size: 4.5rem;
@@ -841,7 +839,7 @@ a:active {
 	margin-top: 2%;
 }
 .blog-entry-content {
-	 margin: 5% 20.5918% 5% 33.39372%;
+	margin: 5% 20.5918% 5% 33.39372%;
 	width: 47%;
 }
 .blog-entry-content p {
@@ -994,22 +992,18 @@ div.post-hr {
 	margin-left: 3.7735849057%; /* (gap / container's width)x100 */
 	margin-bottom: 30px;
 }
-
 .staff-profile:nth-of-type(3n+1) {
 	clear: left;
 	margin-left: 0;
 }
-
 .staff-profile,
 .staff-img {
 	position: relative;
 }
-
 .staff-overlay,
 .staff-overlay div {
 	color: #fff;
 }
-
 .staff-overlay {
 	background: #8abfad;
 	padding: 10% 0;
@@ -1023,16 +1017,13 @@ div.post-hr {
 	bottom: 5px;
 	height: 40%;
 }
-
 .staff-overlay:hover {
 	background: none;
 }
-
 .staff-name {
 	font-weight: bold;
 	margin-bottom: 0;
 }
-
 .staff p,
 img.staff,
 div.staff {
@@ -1043,7 +1034,6 @@ img.staff {
 	font-size: 12px;
 	font-size: 1.2rem;
 }
-
 img.staff {
 	width: 14px;
 	margin-top: 0;
@@ -1309,3 +1299,4 @@ object {
 	max-width: 11.11%;
 }
 .gallery-caption {}
+
