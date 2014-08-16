@@ -42,24 +42,26 @@
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><?php echo bloginfo( 'name' ); ?></h1>
-			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" alt="The Garden Logo" /></a>
-		</div>
+		<div class="main-header">
+			<div class="site-branding">
+				<h1 class="site-title"><?php echo bloginfo( 'name' ); ?></h1>
+				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" alt="The Garden Logo" /></a>
+			</div>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<p id="menu-btn">Menu</p>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'garden' ); ?></a>
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<p id="menu-btn">Menu</p>
+				<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'garden' ); ?></a>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+				<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+			</nav><!-- #site-navigation -->
+		</div><!-- .main-header -->
 
-		<?php if( is_page( 'about' )) {
-				wp_nav_menu( $about );
-			} elseif( is_page( 'connect' )) {
-				wp_nav_menu( $connect );
-			}
-		?>
+			<?php if( is_page( 'about' )) {
+					wp_nav_menu( $about );
+				} elseif( is_page( 'connect' )) {
+					wp_nav_menu( $connect );
+				}
+			?>
 
 	</header><!-- #masthead -->
 

@@ -41,6 +41,7 @@
 			<a href="https://www.google.com/maps/place/540+Cerritos+Ave/@33.7740755,-118.1775336,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd31146718036f:0x8b422397b99ef4d9"><img src="<?php echo get_stylesheet_directory_uri() . '/img/map.png'; ?>" alt="Google Map of 540 Cerritos Ave, Long Beach, CA 90802" /></a>
 		</div><!-- .site-map -->
 	</footer><!-- #colophon -->
+	<div id="page-overlay"></div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
