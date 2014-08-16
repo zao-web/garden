@@ -986,6 +986,9 @@ div.post-hr {
 /*--------------------------------------------------------------
 10.1 Staff Grid
 --------------------------------------------------------------*/
+#staff .child-title {
+	display: none;
+}
 .staff-profile {
 	float: left;
 	width: 30.8176100629%; /* [container's width - (number of columns - 1)xgap] / number of columns */
