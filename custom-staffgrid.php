@@ -1,9 +1,8 @@
 <?php
 /**
- * Template Name:  Staff Page
- *
- * This is the template that creates a single section
- * to be displayed in a Parent Sectional Page.
+ * 
+ * This is the file that creates the staff grid
+ * to be displayed in a Parent Sectional Page when the staff grid shortcode is utilized.
  *
  * @package garden
  */
