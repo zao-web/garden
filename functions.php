@@ -166,7 +166,7 @@ add_action( 'wp_enqueue_scripts', 'garden_scripts' );
  */
 // [staffgrid]
 function staffgrid_func() {
-	get_template_part( 'template', 'staffgrid' );
+	get_template_part( 'custom', 'staffgrid' );
 }
 add_shortcode( 'staffgrid', 'staffgrid_func' );
 
