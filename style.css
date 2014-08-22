@@ -872,7 +872,7 @@ a:active {
 }
 .single .byline,
 .group-blog .byline {
-	display: inline;
+	display: block;
 }
 .page-content,
 .entry-content,
@@ -887,7 +887,11 @@ a:active {
 	margin-top: 2%;
 }
 .blog-entry-content {
+<<<<<<< HEAD
 	margin: 5% 20.5918% 5% 33.39372%;
+=======
+	margin: 0 20.5918% 5% 33.39372%;
+>>>>>>> blog
 	width: 47%;
 }
 .blog-entry-content p {
@@ -905,6 +909,7 @@ img.avatar {
 	border-radius: 100%;
 	margin: 2% 0;
 }
+<<<<<<< HEAD
 div.post-hr {
 	background-color: #242424;
 	width: 68.84%;
@@ -912,10 +917,31 @@ div.post-hr {
 	margin: auto;
 	display: inline-block;
 }
+=======
+>>>>>>> blog
 .entry-content,
 .child-content {
 	width: 62.1982%;
 	margin: 3% auto 6%;
+}
+.social-media {
+	margin-bottom: 2%;
+	margin-right: 18.9009%;
+	min-width: 250px;
+	float: right;
+	text-align: right;
+}
+.social-media .dashicons,
+.social-media #linkedin,
+.social-media #arrow {
+	margin-left: 10%;
+}
+.post hr {
+	background-color: #242424;
+	width: 62.1982%;
+	height: 1px;
+	margin: auto;
+	clear: both;
 }
 
 /*--------------------------------------------------------------
@@ -1034,6 +1060,9 @@ div.post-hr {
 /*--------------------------------------------------------------
 10.1 Staff Grid
 --------------------------------------------------------------*/
+#staff .child-title {
+	display: none;
+}
 .staff-profile {
 	float: left;
 	width: 30.8176100629%; /* [container's width - (number of columns - 1)xgap] / number of columns */

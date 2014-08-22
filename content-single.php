@@ -18,10 +18,11 @@
 
 		<div class="entry-meta">
 			<?php garden_posted_on(); ?>
-			<div class="author-gravatar">
-				<?php echo get_avatar( get_the_author_meta('email'), '100' ); ?>
-			</div><!-- .author-gravatar -->
 		</div><!-- .entry-meta -->
+
+		<div class="author-gravatar">
+			<?php echo get_avatar( get_the_author_meta('email'), '100' ); ?>
+		</div><!-- .author-gravatar -->
 	</div><!-- .entry-header -->
 
 	<div class="blog-entry-content">
@@ -32,52 +33,15 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div><!-- .blog-entry-content -->
 
 	<div class="social-media">
 		<a href="#"><div class="dashicons dashicons-twitter"></div></a>
 		<a href="#"><div class="dashicons dashicons-facebook-alt"></div></a>
-		<a href="#"><img src="<?php echo get_stylesheet_directory_uri() . '/img/green-in.png'; ?>" alt="Independent Network Icon" /></a>
-		<a href="#"><img id="arrow" src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="Independent Network Icon" /></a>	
+		<a href="#"><img id="linkedin" src="<?php echo get_stylesheet_directory_uri() . '/img/green-in.png'; ?>" alt="Linked In Icon" /></a>
+		<a href="#"><img id="arrow" src="<?php echo get_stylesheet_directory_uri() . '/img/green-recarrow.png'; ?>" alt="" /></a>	
 		<a href="#"><div class="dashicons dashicons-googleplus"></div></a>
 	</div><!-- .social-media -->
+	<hr>
 
-	<div class="post-hr"><hr></div><!-- .post-hr -->
-
-	<footer class="entry-footer">
-		<?php
-			/* translators: used between list items, there is a space after the comma */
-			$category_list = get_the_category_list( __( ', ', 'garden' ) );
-
-			/* translators: used between list items, there is a space after the comma */
-			$tag_list = get_the_tag_list( '', __( ', ', 'garden' ) );
-
-			if ( ! garden_categorized_blog() ) {
-				// This blog only has 1 category so we just need to worry about tags in the meta text
-				if ( '' != $tag_list ) {
-					$meta_text = __( 'This entry was tagged %2$s. Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'garden' );
-				} else {
-					$meta_text = __( 'Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'garden' );
-				}
-
-			} else {
-				// But this blog has loads of categories so we should probably display them here
-				if ( '' != $tag_list ) {
-					$meta_text = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'garden' );
-				} else {
-					$meta_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'garden' );
-				}
-
-			} // end check for categories on this blog
-
-			/*printf(
-				$meta_text,
-				$category_list,
-				$tag_list,
-				get_permalink()
-			);*/
-		?>
-
-		<?php edit_post_link( __( 'Edit', 'garden' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

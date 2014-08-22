@@ -1,21 +1,12 @@
 <?php
 /**
- * Template Name:  Staff Page
- *
- * This is the template that creates a single section
- * to be displayed in a Parent Sectional Page.
+ * 
+ * This is the file that creates the staff grid
+ * to be displayed in a Parent Sectional Page when the staff grid shortcode is utilized.
  *
  * @package garden
  */
-
-get_header(); ?>
-
-	<div class="section-item">
-		<main id="main" class="site-main" role="main">
-
-			<div class="child-content">
-
-			<?php 
+ 
 
 			$args = array(
 				'post_type' => 'staff',
@@ -56,14 +47,4 @@ get_header(); ?>
 				
 			<?php endwhile; endif;// end of the loop. ?>
 
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', 'page' ); ?>
-
-			<?php endwhile; // end of the loop. ?>	
-
-			</div><!-- .child-content -->
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_footer(); ?>
+			

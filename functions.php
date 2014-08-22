@@ -164,6 +164,15 @@ function garden_scripts() {
 add_action( 'wp_enqueue_scripts', 'garden_scripts' );
 
 /**
+ * Create and Register shortcode to pull in staff grid
+ */
+// [staffgrid]
+function staffgrid_func() {
+	get_template_part( 'custom', 'staffgrid' );
+}
+add_shortcode( 'staffgrid', 'staffgrid_func' );
+
+/**
  * Implement the Custom Header feature.
  */
 //require get_template_directory() . '/inc/custom-header.php';
