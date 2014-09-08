@@ -15,5 +15,5 @@
 				</div>
 
 				<div class="give entry-content">
-					<p>To learn more about Kindred, click <a href="#">here.</a></p>
+					<p>To learn more about Kindred, click <a href="https://kindrid.com/">here.</a></p>
 				</div>
