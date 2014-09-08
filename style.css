@@ -1044,7 +1044,7 @@ img.avatar {
 .widget-middle-right,
 .widget-bottom-right {
 	float: right;
-	margin-right: 3%
+	margin-right: 3%;
 }
 .page article {
 	min-height: 20px;
@@ -1251,8 +1251,8 @@ footer {
 	padding: 2.5% 5% 2.5% 10%;
 	color: #fff;
 }
-div.site-info,
-div.site-map {
+.site-info,
+.site-map {
 	height: 302px;
 }
 img#footer-logo {
