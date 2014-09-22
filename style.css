@@ -113,6 +113,9 @@ a:active {
 a img {
 	border: 0;
 }
+.post-edit-link {
+	display: none;
+}
 
 /*--------------------------------------------------------------
 2.0 Typography
@@ -1054,6 +1057,11 @@ img.avatar {
 }
 .page article {
 	min-height: 20px;
+}
+
+.page-template-template-widgetized-page-php .entry-content,
+.page-template-template-widgetized-page-php article {
+	margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
