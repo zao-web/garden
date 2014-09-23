@@ -6,10 +6,10 @@
 
 jQuery( document ).ready( function( $ ) {
 	$("#menu-btn").toggle(function() {
-		$('#page-overlay').css('display','block');
-		$('.menu-main-menu-container').css('display','block');
+		$('#page-overlay').fadeIn("slow");
+		$('.menu-main-menu-container').slideDown(800);
 	}, function(){
-		$('#page-overlay').css('display','none');
-		$('.menu-main-menu-container').css('display','none');
+		$('#page-overlay').fadeOut("slow");
+		$('.menu-main-menu-container').slideUp(300);
 	});
 });
