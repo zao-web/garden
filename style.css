@@ -450,9 +450,12 @@ textarea {
 	border-radius: 3px;
 	color: #8abfad;
 }
+.prayer-form input[type="submit"],
+.contact-form input[type="submit"] {
+	border: 1px solid #8abfad;
+}
 .prayer-form input[type="submit"] {
 	display: inline-block;
-	border: 1px solid #8abfad;
 	height: 40px;
 	width: 125px;
 }
@@ -470,7 +473,8 @@ textarea {
 .prayer-email,
 .contact-first,
 .contact-last,
-.contact-email {
+.contact-email,
+.contact-form input[type="submit"] {
 	display: inline-block;
 	width: 47.5%;
 }
