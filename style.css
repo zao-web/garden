@@ -603,6 +603,19 @@ a:active {
 	margin-right: 0;
 	text-align: center;
 }
+.previous {
+	float: left;
+	margin-left: 18.9009%;
+}
+.next {
+	float: right;
+	margin-right: 18.9009%;
+}
+.previous a,
+.next a {
+	color: #000;
+	font-size: 1.4rem;
+}
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
@@ -790,7 +803,9 @@ a:active {
 .widget-content:before,
 .widget-content:after,
 .site-footer:before,
-.site-footer:after {
+.site-footer:after,
+.post-nav:before,
+.post-nav:after {
 	content: '';
 	display: table;
 }
@@ -801,7 +816,8 @@ a:active {
 .site-header:after,
 .site-content:after,
 .widget-content:after,
-.site-footer:after {
+.site-footer:after,
+.post-nav:after {
 	clear: both;
 }
 
