@@ -10,11 +10,11 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php $i = 1; while ( have_posts() && $i < 2 ) : the_post(); ?>
+		<?php $i = 1; if( have_posts() ) : while ( have_posts() && $i < 2 ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-		<?php $i++; endwhile; // end of the loop. ?>
+		<?php $i++; endwhile; endif; // end of the loop. ?>
 
 			<div class="post_nav">
 			<?php 
