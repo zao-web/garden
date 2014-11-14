@@ -441,26 +441,35 @@ textarea {
 	width: 98%;
 }
 .prayer-textarea textarea,
-.prayer-form input[type="text"],
+.prayer-form input,
 .contact-comments textarea,
-.contact-form input[type="text"] {
+.contact-form input,
+.gfield_radio label {
 	display: inline-block;
 	box-shadow: 0px 1px 1.5px .5px rgba(0, 0, 0, 0.1);
 	border: 1px solid #8abfad;
 	border-radius: 3px;
 	color: #8abfad;
+	background: #fff;
 }
 .prayer-form input[type="submit"],
 .contact-form input[type="submit"] {
 	border: 1px solid #8abfad;
+	color: #fff;
 }
+.prayer-form input[type="text"],
 .prayer-form input[type="submit"] {
-	display: inline-block;
 	height: 40px;
 	width: 125px;
 }
-.prayer-form input[type="text"] {
-	height: 40px;
+.prayer-form input[type="submit"] {
+	width: 125px;
+	background: #8abfad;
+	box-shadow: 0px 1px 1.5px .5px rgba(0, 0, 0, 0.1);
+}
+.prayer-form input[type="submit"]:hover {
+	background: #fff;
+	color: #8abfad;
 }
 #input_1_2,
 #input_1_3,
@@ -513,29 +522,33 @@ label[for=input_2_3],
 label[for=input_2_4] {
 	display: none !important; /*Needed to overide gravity forms CSS */
 }
-#field_1_4 {
+#field_1_4 label {
 	color: #8abfad;
+	vertical-align: 100%;
+	margin-top: 0;
+}
+#field_1_4 .gfield_label, 
+#field_1_4 .ginput_container {
+	display: inline-block;
 }
 label.gfield_label {
 	font-weight: normal !important; /*Needed to overide gravity forms CSS */
 }
-#input_1_4 li {
-	display: inline;
+.gfield_radio li {
+  display: inline-block;
+  margin-bottom: 0 !important; /*Needed to overide gravity forms CSS */
 }
-#choice_4_0:checked::before,
-input[type="radio"] {
-    position:absolute;
-    clip: rect(0,0,0,0);
-    clip: rect(0 0 0 0);
+.gfield_radio input {
+  position: absolute;
+  left: -50px;
 }
-
-#choice_4_0:checked,
-input[type="radio"] + label::before{
-    content: url('img/yes-off.jpg');
+.gfield_radio label {
+  margin-right: 10px;
+  padding: .75em .8em !important; /*Needed to overide gravity forms CSS */
 }
-
-input[type="radio"]:checked + label::before {
-    content: url('img/yes-on.jpg');
+.gfield_radio input:checked + label {
+  background: #8abfad;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
